@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads
+uploads/
+backend/uploads/
+**/uploads/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+*.db
+*.db-journal
+# Keep migrations, but ignore sqlite dbs if any
+# prisma/migrations/ # We usually WANT to commit migrations
+
+# Temporary
+*.tmp
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
